@@ -46,7 +46,7 @@ This Spring Boot application connects to GitHub and generates a report showing w
 ```bash
 mvn spring-boot:run
 ```
-The application starts on port 8080 (configurable in `application.properties`).
+The application starts on port 8090 (configurable in `application.properties`).
 
 ### Using Eclipse
 1. Import as Maven project: `File > Import > Maven > Existing Maven Projects`.
@@ -68,7 +68,7 @@ mvn spring-boot:run -Dgithub.token=your_token_here
 
 **Example Request**:
 ```bash
-curl -H "Accept: application/json" http://localhost:8080/api/access-report/your-org-name
+curl -H "Accept: application/json" http://localhost:8090/api/access-report/your-org-name
 ```
 
 **Example Response**:
